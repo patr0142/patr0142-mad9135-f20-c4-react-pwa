@@ -1,0 +1,24 @@
+.Catfacts{
+    color: black;
+    font-size: 2.5rem;
+}
+
+.Catfacts p {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.Catfacts p .backBtn{
+  border: 1px solid black;
+  font-weight: bold;
+  margin-right: 50px;
+  color: white;
+  background-color: black;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.Catfacts p a { color:white; text-decoration: none;}
+.Catfacts p a:link { color:white; text-decoration: none;}
+.Catfacts p a:visited { color: white; text-decoration: none;}
+
