@@ -1,0 +1,13 @@
+.Fact{
+    color: gray;
+    font-size: 2rem;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+.Fact li{
+  font-family: 'Caveat', cursive;
+  /* font-weight: 700; */
+  font-weight: 400;
+  text-align: left;
+}
