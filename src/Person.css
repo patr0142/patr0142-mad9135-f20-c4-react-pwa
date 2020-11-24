@@ -1,0 +1,15 @@
+.Person{
+    color: gray;
+    font-size: 2rem;
+  }
+
+.Person .lable {
+  font-family: 'Caveat', cursive;
+  /* font-weight: 700; */
+  font-weight: 400;
+}
+
+.Person .content {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
