@@ -113,5 +113,12 @@ self.addEventListener('fetch', (event) => {
     })
   );
 
-
+  
+  registerRoute(
+    //new RegExp(`https://cat-fact.herokuapp.com/facts`),
+    new RegExp(`https://cat-fact.herokuapp.com/`),
+    new StaleWhileRevalidate({
+      cacheName: 'cat-facts'
+    })
+  );
 
