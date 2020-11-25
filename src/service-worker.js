@@ -105,5 +105,13 @@ self.addEventListener('fetch', (event) => {
   );
 
 
+  registerRoute(
+    //new RegExp(`https://swapi.dev/api/people/`),
+    new RegExp(`https://swapi.dev/api/`),
+    new StaleWhileRevalidate({
+      cacheName: 'people-starwars'
+    })
+  );
+
 
 
