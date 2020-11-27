@@ -11,7 +11,6 @@ export const LocalStorage = {
     getLocalstorage: () => {
       let tmpData = window.localStorage.getItem(LocalStorage.storageKey)
       if (tmpData) {
-        let obj = JSON.parse(tmpData)
         return JSON.parse(tmpData)
       } else {
         LocalStorage.setLocalstorage({numberOfVisiting:0})
