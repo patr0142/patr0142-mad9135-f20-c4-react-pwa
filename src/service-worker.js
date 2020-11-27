@@ -106,7 +106,6 @@ self.addEventListener('fetch', (event) => {
 
 
   registerRoute(
-    //new RegExp(`https://swapi.dev/api/people/`),
     new RegExp(`https://swapi.dev/api/`),
     new StaleWhileRevalidate({
       cacheName: 'people-starwars'
@@ -115,7 +114,6 @@ self.addEventListener('fetch', (event) => {
 
   
   registerRoute(
-    //new RegExp(`https://cat-fact.herokuapp.com/facts`),
     new RegExp(`https://cat-fact.herokuapp.com/`),
     new StaleWhileRevalidate({
       cacheName: 'cat-facts'
